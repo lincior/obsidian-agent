@@ -1,0 +1,16 @@
+[project]
+name = "obsidian-agent"
+version = "0.1.0"
+description = "An LLM agent with MCP tools for Obsidian"
+authors = [
+    { name = "Riccardo Lincetto", email = "info@lincior.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+    "ruff>=0.11.13",
+]
